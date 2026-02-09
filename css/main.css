@@ -1,0 +1,30 @@
+:root {
+  --ff-serif: 'Noto Serif', serif;
+  --ff-sans: 'Noto Sans', sans-serif;
+  --ff-mono: 'Noto Mono', monospace;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  font-family: var(--ff-sans);
+  font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--ff-serif);
+  font-weight: 400;
+}
+pre,
+code {
+  font-family: var(--ff-mono);
+}
+header,
+main,
+footer {
+  padding: 1rem 2rem;
+}
