@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PWA &amp; Service Workers</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+      img-src 'self' picsum.photos fastly.picsum.photos;
+      style-src 'self' fonts.googleapis.com ;
+      script-src 'self' 'unsafe-inline';
+      connect-src 'self';
+      font-src 'self' fonts.gstatic.com;
+      default-src 'self';    "
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,6 +22,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/main.css" />
+
+    <link rel="manifest" href="./manifest.json" />
+
+    <link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg" />
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Hello Monday" />
+
     <script type="module" src="js/main.js"></script>
   </head>
   <body>
@@ -26,6 +46,49 @@
       <p>
         <img src="https://picsum.photos/500" alt="sample image" />
       </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, rem repudiandae possimus quas sequi recusandae assumenda iure quis fugiat voluptas dolorum illum nobis ad, quaerat praesentium
+        aut accusamus sit deleniti.
+      </p>
+      <p>
+        Minus, maiores magni ducimus distinctio soluta minima similique dolorum doloribus ea non laborum id quas quasi vitae quia? Similique esse dignissimos maxime architecto est nesciunt aut nobis
+        error velit iste?
+      </p>
+      <p>
+        Harum perspiciatis fuga recusandae alias, eligendi animi fugit iure impedit. Iste sapiente possimus illum beatae repellat neque expedita! Velit id perferendis explicabo? Fugiat odit amet
+        assumenda aut excepturi iure perspiciatis!
+      </p>
+      <p>
+        Ducimus ut numquam in aliquid dolore consectetur sapiente obcaecati, ea suscipit impedit nihil repudiandae itaque qui dicta rem deserunt facilis voluptatum totam, modi nobis distinctio eius ex
+        laudantium omnis. Maxime.
+      </p>
+      <p>
+        Aspernatur quam aliquid earum officiis harum? Recusandae odio exercitationem sit labore porro quam ea sapiente veritatis illum, odit perferendis tempora, fuga natus error suscipit nihil vel
+        ipsam, repudiandae doloribus tempore?
+      </p>
+      <p>
+        Possimus, aliquid neque eveniet illo cum distinctio voluptas molestias nesciunt libero voluptatibus voluptatum, dolores asperiores maxime! Hic placeat, aut autem quae facilis repellat quod
+        voluptates, quasi tenetur molestiae quaerat incidunt.
+      </p>
+      <p>
+        Quas fugit delectus repellat. Esse officiis vel odio accusantium laborum eius nemo, in iure corrupti quisquam numquam fuga aliquid cum molestiae impedit eos tempore. Pariatur facilis magni
+        assumenda modi corrupti!
+      </p>
+      <p>
+        Eius ullam accusamus veniam. Quo quibusdam officia hic repudiandae iste, explicabo cum incidunt quos impedit sit expedita earum ullam doloribus voluptatum facere fuga asperiores? Nemo est
+        recusandae quia tempore impedit.
+      </p>
+      <p>
+        Nemo sunt, enim nihil veritatis labore maiores minima nulla magni quam consequatur error aut, tempore harum quos omnis! Quod illum, maiores recusandae sint temporibus vero non vel minus
+        repudiandae quam!
+      </p>
+      <p>
+        Modi adipisci dicta porro cum illum quibusdam voluptas nobis cupiditate aut, ad totam eos magni! Dolorum iste architecto minus repellendus dolores excepturi! Hic vitae rem quam aperiam
+        repellat quo! Nulla.
+      </p>
     </main>
+    <footer>
+      <a href="#">click me please</a>
+    </footer>
   </body>
 </html>
